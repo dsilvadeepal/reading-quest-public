@@ -1,0 +1,195 @@
+.celebration-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(44, 35, 29, 0.5);
+  backdrop-filter: blur(5px);
+}
+.celebration-panel {
+  position: relative;
+  width: min(100%, 640px);
+  max-height: calc(100dvh - 48px);
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 64px 28px 28px;
+  border: 2px solid #e9dfcb;
+  border-radius: 32px;
+  background: #fffdf7;
+  color: #38362f;
+  box-shadow: 0 24px 80px #241a1938;
+  text-align: center;
+  animation: celebration-arrive 0.35s ease-out both;
+}
+.celebration-panel:focus {
+  outline: none;
+}
+.celebration-panel button:focus-visible {
+  outline: 3px solid #ad392b;
+  outline-offset: 4px;
+}
+.celebration-sound {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 22px;
+  background: #f1ecdf;
+  color: #625743;
+  font-size: 13px;
+  cursor: pointer;
+}
+.celebration-story10les {
+  color: #d8a129;
+  font-size: 32px;
+  letter-spacing: 16px;
+  margin-bottom: 12px;
+}
+.celebration-story10les span {
+  display: inline-block;
+  transform: translateY(-12px);
+}
+.celebration-eyebrow {
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9b6049;
+  margin: 0 0 8px;
+}
+.celebration-panel h2 {
+  font-size: clamp(25px, 5vw, 36px);
+  line-height: 1.15;
+  margin: 0 0 26px;
+}
+.celebration-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 26px 18px;
+}
+.celebration-badge {
+  flex: 1 1 170px;
+  max-width: 250px;
+}
+.celebration-medal {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  background: var(--badge-color);
+  border: 6px solid #fff;
+  border-radius: 30px;
+  box-shadow:
+    0 0 0 2px #dfd4bd,
+    0 8px 0 #e9e0cc;
+  animation: celebration-medal 0.5s ease-out both;
+  animation-delay: var(--badge-delay);
+}
+.celebration-medal span {
+  font-size: 45px;
+}
+.celebration-medal i {
+  position: absolute;
+  right: -10px;
+  bottom: -5px;
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #387751;
+  color: white;
+  border: 3px solid #fffdf7;
+  font: 700 16px system-ui;
+}
+.celebration-badge h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+.celebration-badge p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #756951;
+}
+.celebration-actions {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  margin-top: 28px;
+}
+.celebration-primary {
+  width: min(100%, 320px);
+  min-height: 50px;
+  border: 0;
+  border-radius: 16px;
+  background: #cb4637;
+  color: #fff;
+  font: inherit;
+  font-weight: 750;
+  padding: 12px 20px;
+  box-shadow: 0 4px 0 #a7352a;
+  cursor: pointer;
+}
+.celebration-album {
+  min-height: 44px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: #92523c;
+  padding: 10px 16px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 650;
+  cursor: pointer;
+}
+.celebration-actions button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+@keyframes celebration-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes celebration-medal {
+  from {
+    opacity: 0;
+    transform: scale(0.7) rotate(-9deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 480px) {
+  .celebration-overlay {
+    padding: 14px;
+  }
+  .celebration-panel {
+    padding: 68px 18px 22px;
+    max-height: calc(100dvh - 28px);
+    border-radius: 25px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .celebration-panel,
+  .celebration-medal {
+    animation: none;
+  }
+}

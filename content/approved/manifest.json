@@ -1,0 +1,44 @@
+{
+  "packets": [
+    {
+      "file": "story01.json",
+      "sha256": "f69b95ceab3a9dc8be55f77105a3cee755a493696c2572ba9f2e4b74b75212aa"
+    },
+    {
+      "file": "story02.json",
+      "sha256": "a85cfbd4f75d61f40c3decc3a99e745b6595c838becbc7e975cfa48e8033c6e2"
+    },
+    {
+      "file": "story03.json",
+      "sha256": "54930ec7f1e36fb4043e08872a4ac2e9f59e7fbb7f447019a0c3d0b5cbaf2db5"
+    },
+    {
+      "file": "story04.json",
+      "sha256": "94a3c7d0873d27b56af1242ec775b08fed730c7ad6dee23426e29ef667b31182"
+    },
+    {
+      "file": "story05.json",
+      "sha256": "fa847f8106cf74686a75a98d517f9802cea7382c79d15e6d4973c1ff38acefdd"
+    },
+    {
+      "file": "story06.json",
+      "sha256": "e5cf81758379a39bd57a9deea3766bae73e7af21e98f173095fc731872ad3cab"
+    },
+    {
+      "file": "story07.json",
+      "sha256": "96b13901748c124677567ab8e981a4c0094a2caf870fcc0a63d22ac3e686566b"
+    },
+    {
+      "file": "story08.json",
+      "sha256": "c8561ff9fc7f73b58123ad0e8c709d170f9c45dbee68dd9c271214285731a671"
+    },
+    {
+      "file": "story09.json",
+      "sha256": "c59ea64d1a9fc9fe94556fc654018abfa407a5e4d056bd6c3ac218238d73a494"
+    },
+    {
+      "file": "story10.json",
+      "sha256": "c595d79eed655b370abb9fc195733e05c113ff7bd89dfcfed2b1c2a8648b8bb4"
+    }
+  ]
+}

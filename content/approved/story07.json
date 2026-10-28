@@ -1,0 +1,126 @@
+{
+  "status": "approved",
+  "book_id": "story07",
+  "questions": [
+    {
+      "id": "story07-q1",
+      "revision": 1,
+      "teacher_number": 1,
+      "question": "Where did Robin go?",
+      "answer": "square",
+      "accepted_answer_variants": [
+        "square"
+      ],
+      "hint": "Read the short story on the book page.",
+      "explanation": "Robin visited the square on Saturday. Robin carried a silver clock. A friend named Sam met Robin there. Together they helped a neighbor before going home.",
+      "choices": [
+        {
+          "text": "square",
+          "correct": true
+        },
+        {
+          "text": "station",
+          "correct": false
+        },
+        {
+          "text": "beach",
+          "correct": false
+        },
+        {
+          "text": "castle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "story07-q2",
+      "revision": 1,
+      "teacher_number": 2,
+      "question": "What color was the item Robin carried?",
+      "answer": "silver",
+      "accepted_answer_variants": [
+        "silver"
+      ],
+      "hint": "Read the short story on the book page.",
+      "explanation": "Robin visited the square on Saturday. Robin carried a silver clock. A friend named Sam met Robin there. Together they helped a neighbor before going home.",
+      "choices": [
+        {
+          "text": "silver",
+          "correct": true
+        },
+        {
+          "text": "white",
+          "correct": false
+        },
+        {
+          "text": "black",
+          "correct": false
+        },
+        {
+          "text": "teal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "story07-q3",
+      "revision": 1,
+      "teacher_number": 3,
+      "question": "What was the name of the friend Robin met?",
+      "answer": "Sam",
+      "accepted_answer_variants": [
+        "Sam"
+      ],
+      "hint": "Read the short story on the book page.",
+      "explanation": "Robin visited the square on Saturday. Robin carried a silver clock. A friend named Sam met Robin there. Together they helped a neighbor before going home.",
+      "choices": [
+        {
+          "text": "Sam",
+          "correct": true
+        },
+        {
+          "text": "Alex",
+          "correct": false
+        },
+        {
+          "text": "Morgan",
+          "correct": false
+        },
+        {
+          "text": "Jules",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "story07-q4",
+      "revision": 1,
+      "teacher_number": 4,
+      "question": "On which day did Robin visit?",
+      "answer": "Saturday",
+      "accepted_answer_variants": [
+        "Saturday"
+      ],
+      "hint": "Read the short story on the book page.",
+      "explanation": "Robin visited the square on Saturday. Robin carried a silver clock. A friend named Sam met Robin there. Together they helped a neighbor before going home.",
+      "choices": [
+        {
+          "text": "Saturday",
+          "correct": true
+        },
+        {
+          "text": "Monday",
+          "correct": false
+        },
+        {
+          "text": "Tuesday",
+          "correct": false
+        },
+        {
+          "text": "Friday",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

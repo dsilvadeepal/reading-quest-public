@@ -1,0 +1,9 @@
+{
+  "reason": "Synthetic retired identifiers exercise preservation of earlier outcomes.",
+  "ids": [
+    "story01-001",
+    "story02-001",
+    "story04-001",
+    "story05-001"
+  ]
+}
